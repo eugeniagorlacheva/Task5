@@ -1,0 +1,90 @@
+body {
+  padding: 40px;
+  background-color: #D1D1D1;
+}
+
+.fullwrap {
+  margin: 0 auto;
+  width: 720px;
+  font-size: 18px;
+  font-family: sans-serif;
+  line-height: 25px;
+  background-color: #fff;
+}
+
+.header img{
+  width: 720px;
+}
+.wrapper {
+  width: 690px;
+  margin: 0 auto;
+}
+
+.compellation {
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
+
+.line1, .line2 {
+  height: 400px;
+}
+
+.offer1, .offer3 {
+  margin-right: 30px;
+}
+
+.offer2 figure {
+  margin: 0;
+}
+
+.offer1, .offer3, .offer4 {
+  float: left;
+}
+
+.offer1, .offer2, .line1 img, .line1 button {
+  width: 320px;
+}
+
+.offer2, .offer5 {
+  float: right;
+}
+
+.clearfix::after {
+  display: block;
+  content:"";
+  clear: both;
+}
+
+.offer3, .offer4, .offer5, .line2 img, .line2 button {
+  width: 210px;
+}
+
+button {
+  margin: 35px 0px;
+  background-color:#D65C4B;
+  color: #fff;
+  height: 40px;
+  border-radius: 10px;
+}
+
+ .footer .italic {
+  font-style: italic;
+}
+
+.footer button {
+  width: 690px;
+}
+
+.unsubscribe {
+  margin-top: 55px;
+  text-align: center;
+  color:#fff;
+}
+
+.unsubscribe a {
+  color: #fff;
+  text-decoration: underline;
+}

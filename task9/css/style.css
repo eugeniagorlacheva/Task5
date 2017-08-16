@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-block {
+  margin: 0 auto;
+  background-color: #80CDC6;
+  background-position: top left;
+  width: 600px;
+  height: 500px;
+  border: 1px solid black;
+  position: relative;
+}
+.clouds {
+  width: 400px;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 200px;
+}
+.world {
+  width: 600px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.water {
+  width: 600px;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.wooden-ship {
+  width: 100px;
+  height: auto;
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+}
