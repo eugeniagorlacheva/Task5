@@ -1,6 +1,5 @@
 .fullwrap {
   margin: 0 auto;
-  height: 700px;
   width: 500px;
   border: 1px solid black;
 }
@@ -23,10 +22,6 @@
 .wrap, .main, .sidebar {
   border: 1px solid black;
   margin: 10px;
-}
-
-.wrap {
-  height: 450px;
 }
 
 .clearfix::after {

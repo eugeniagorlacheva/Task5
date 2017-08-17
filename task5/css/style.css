@@ -1,9 +1,11 @@
-body {
+.fullwrap {
+  margin: 0 auto;
+  width: 760px;
   padding: 40px;
   background-color: #D1D1D1;
 }
 
-.fullwrap {
+.fullwrap1 {
   margin: 0 auto;
   width: 720px;
   font-size: 18px;
